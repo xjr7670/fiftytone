@@ -20,6 +20,7 @@ body {
     font-size: 28px;
     font-weight: bolder;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .option {
