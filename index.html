@@ -1,0 +1,35 @@
+<!DOCTYPE xhtml>
+<html>
+    <head>
+        <title>五十音图练习小游戏</title>
+        <link href="./css/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="word" id="word1">
+                <span><label></label></span>
+            </div>
+            <div class="word" id="word2">
+                <span><label></label></span>
+            </div>
+            <div class="word" id="word3">
+                <p></p>
+            </div>                        
+        </div>
+        <div id="settings">
+            <div class="lbl"><p onclick="showoption()" >settings</p></div>
+            <div class="option">
+                <p><input type="checkbox" name="hiragana" value="1" checked>平假名</p>
+                <p><input type="checkbox" name="katakana" value="2">片假名</p>
+                <p><input type="checkbox" name="hiradi" value="3">浊音</p>
+                <p><input type="checkbox" name="trans" value="4">拗音</p>
+                <button onclick="hideoption()">保存并关闭</button>
+            </div>
+        </div>
+        <div class="keyin">
+            <input id="userWord" autofocus type="text" />
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

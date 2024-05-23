@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.word {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(81, 255, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.option {
+    display: none;
+    position: fixed;
+    border-radius: 10px;
+    color: goldenrod;
+}
+
+.lbl {
+    color: greenyellow;
+    text-decoration: underline;
+    width: 50px;
+}
+.lbl > p:hover {
+    cursor: pointer;
+}
+
+#settings {
+    left: 15px;
+    z-index: 999;
+    margin-top: 10%;
+}
+
+#word1 {
+    left: 0;
+    top: 20%;
+}
+
+#word2 {
+    left: 0;
+    top: 40%;
+}
+
+#word3 {
+    left: 0;
+    top: 60%;
+}
+
+.keyin {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+}
+.keyin input {
+    font-size: 48px;
+}
