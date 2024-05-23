@@ -1,0 +1,1 @@
+A little game to help for remember Japanese Hiragana, Katakana, Hiragana with Diacritical Marks, and Transcribing Contracted Sounds.
