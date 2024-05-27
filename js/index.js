@@ -77,14 +77,11 @@ function checkEnter() {
         w1.innerText = charArray[getIdx()];
         w1.style.left = '0px';
         enterBox.value = "";
-    }
-    if (w2Word == keyin) {
+    } else if (w2Word == keyin) {
         w2.innerText = charArray[getIdx()];
         w2.style.left = '0px';
         enterBox.value = "";
-    }
-
-    if (w3Word == keyin) {
+    } else if (w3Word == keyin) {
         w3.innerText = charArray[getIdx()];
         w3.style.left = '0px';
         enterBox.value = "";
